@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import categories from "./categories";
+import Categories from "./categories";
 
 interface Props {
   onSelectCategory: (category: string) => void;
@@ -13,7 +13,7 @@ const ExpanseFilter = ({ onSelectCategory }: Props) => {
       onChange={(event) => onSelectCategory(event.target.value)}
     >
       <option value="">All categories</option>
-      {categories.map((category) => (
+      {Categories.map((category) => (
         <option key={category} value={category}>
           {category}
         </option>

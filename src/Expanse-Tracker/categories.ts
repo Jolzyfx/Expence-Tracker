@@ -1,3 +1,3 @@
-const categories = ['Groceries', 'Utilities','Entertainment'] as const
+const Categories = ['Groceries', 'Utilities','Entertainment'] as const
 
-export default categories;
+export default Categories;
