@@ -1,0 +1,12 @@
+body {
+  padding: 20px;
+  background-color: bisque;
+}
+.primary{
+ color: rgb(0, 0, 255);
+ background-color: pink;
+ border-radius: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
